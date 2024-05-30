@@ -1,5 +1,5 @@
 {
-  description = "Usefull templates"
+  description = "Usefull templates";
 
   outputs = { self, ... }:
   {
