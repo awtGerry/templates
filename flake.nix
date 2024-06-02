@@ -1,5 +1,5 @@
 {
-  description = "Usefull templates";
+  description = "Templates";
 
   outputs = { self, ... }:
   {
@@ -7,6 +7,10 @@
       iced = {
         path = ./iced;
         description = "Template to use iced-rs";
+      };
+      rusydev {
+        path = ./rusydev;
+        description = "Simple rust development environment";
       };
     };
   };
